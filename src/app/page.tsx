@@ -98,7 +98,7 @@ export default function Home() {
               Help Shape the Future of Deligator
             </Typography>
             <Typography variant="subtitle1" sx={{ mb: 4 }}>
-              We value your input and want to hear from you! Whether you're an active community member or just getting started, your feedback is crucial in helping us improve Deligator.
+              We value your input and want to hear from you! Whether you&apos;re an active community member or just getting started, your feedback is crucial in helping us improve Deligator.
             </Typography>
             <Button variant="contained" color="primary" sx={{ alignSelf: 'end' }}>
               Message us
