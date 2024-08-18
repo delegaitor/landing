@@ -39,7 +39,7 @@ const commonTheme: Theme = {
     },
     body1: {
       fontSize: '1rem',
-      color: '#777',
+      color: 'text.secondary',
       margin: '0 auto',
     },
   },
@@ -61,7 +61,8 @@ const commonTheme: Theme = {
         root: {
           borderRadius: '16px',
           padding: '16px',
-          color: 'unset !important',
+          backgroundColor: 'background.paper',
+          color: 'text.primary',
         },
       },
     },

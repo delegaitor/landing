@@ -37,7 +37,7 @@ const ThemeProvider: FC<ThemeProviderProps> = ({ children }) => {
   }, [theme]);
 
   const muiTheme = useMemo(() => (theme === 'light' ? lightTheme : darkTheme), [theme]);
-
+  console.log('theme', theme)
   return (
     <AppRouterCacheProvider>
       <ThemeContext.Provider value={{ theme, toggleTheme }}>
